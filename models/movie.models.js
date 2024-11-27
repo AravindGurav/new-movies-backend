@@ -8,7 +8,6 @@ const movieSchema = new mongoose.Schema(
     },
     releaseYear: {
       type: Number,
-      required: true,
     },
     genre: [
       {
@@ -39,7 +38,6 @@ const movieSchema = new mongoose.Schema(
     ],
     language: {
       type: String,
-      required: true,
     },
     country: {
       type: String,
